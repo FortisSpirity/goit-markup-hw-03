@@ -17,29 +17,29 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="wrapper">
             <div class="header-inner">
                 <div class="header-menu">
                     <nav class="menu">
                         <div class="logo">
-                            <a class="logo-link" href="#">
+                            <a class="logo-link" href="index.html">
                                 <span class="logo-link--blue">WEB</span>
                                 <span class="logo-link--black">STUDIO</span>
                             </a>
                         </div>
                         <ul class="menu-list">
                             <li class="menu-item">
-                                <a class="menu-link" href="studio.html" target="_blank">
+                                <a class="menu-link" href="index.html">
                                     Studio
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="portfolio.html" target="_blank">
+                                <a class="menu-link" href="portfolio.html">
                                     Portfolio
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="contacts.html" target="_blank">
+                                <a class="menu-link" href="contacts.html">
                                     Contacts
                                 </a>
                             </li>
@@ -60,15 +60,17 @@
                         </ul>
                     </div>
                 </div>
-                <div class="header-content">
-                    <div class="header-content__top">
-                        <h1 class="header-content__title">
-                            Effective Solutions for Your Business
-                        </h1>
-                        <button class="header-content__button" type="button">
-                            Order Service
-                        </button>
-                    </div>
+            </div>
+            <section class="header-content">
+                <div class="header-content__top">
+                    <h1 class="header-content__title">
+                        Effective Solutions for Your Business
+                    </h1>
+                    <button class="header-content__button" type="button">
+                        Order Service
+                    </button>
+                </div>
+                <div class="container">
                     <ul class="header-content__box">
                         <li class="header-content__item">
                             <h2 class="header-content__subtitle">
@@ -108,14 +110,14 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </section>
         </div>
     </header>
 
     <main class="main">
         <div class="container">
             <div class="main-inner">
-                <section class="specialty">
+                <section class="specialty section">
                     <h2 class="specialty-title">
                         What are we doing
                     </h2>
@@ -134,46 +136,54 @@
                         </li>
                     </ul>
                 </section>
-                <section class="team">
+                <section class="team section">
                     <h2 class="team-title">
                         Our Team
                     </h2>
                     <ul class="team-list">
                         <li class="team-item">
                             <img class="team-img" width="264px" src="images/team-img/team-1.jpg" alt="Mark Guerrero">
-                            <h3 class="team-name">
-                                Mark Guerrero
-                            </h3>
-                            <p class="team-subscribe">
-                                Product Designer
-                            </p>
+                            <div class="team-groupe">
+                                <h3 class="team-name">
+                                    Mark Guerrero
+                                </h3>
+                                <p class="team-subscribe">
+                                    Product Designer
+                                </p>
+                            </div>
                         </li>
                         <li class="team-item">
                             <img class="team-img" width="264px" src="images/team-img/team-2.jpg" alt="Tom Ford">
-                            <h3 class="team-name">
-                                Tom Ford
-                            </h3>
-                            <p class="team-subscribe">
-                                Frontend Developer
-                            </p>
+                            <div class="team-groupe">
+                                <h3 class="team-name">
+                                    Tom Ford
+                                </h3>
+                                <p class="team-subscribe">
+                                    Frontend Developer
+                                </p>
+                            </div>
                         </li>
                         <li class="team-item">
                             <img class="team-img" width="264px" src="images/team-img/team-3.jpg" alt="Camila Garcia">
-                            <h3 class="team-name">
-                                Camila Garcia
-                            </h3>
-                            <p class="team-subscribe">
-                                Marketing
-                            </p>
+                            <div class="team-groupe">
+                                <h3 class="team-name">
+                                    Camila Garcia
+                                </h3>
+                                <p class="team-subscribe">
+                                    Marketing
+                                </p>
+                            </div>
                         </li>
                         <li class="team-item">
                             <img class="team-img" width="264px" src="images/team-img/team-4.jpg" alt="Daniel Wilson">
-                            <h3 class="team-name">
-                                Daniel Wilson
-                            </h3>
-                            <p class="team-subscribe">
-                                UI Designer
-                            </p>
+                            <div class="team-groupe">
+                                <h3 class="team-name">
+                                    Daniel Wilson
+                                </h3>
+                                <p class="team-subscribe">
+                                    UI Designer
+                                </p>
+                            </div>
                         </li>
                     </ul>
                 </section>
@@ -182,18 +192,20 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
+        <div class="wrapper">
             <div class="futer-inner">
-                <div class="logo">
-                    <a class="logo-link" href="#">
-                        <span class="logo-link--blue">WEB</span>
-                        <span class="logo-link--black blank">STUDIO</span>
-                    </a>
+                <div class="footer-content">
+                    <div class="logo">
+                        <a class="logo-link" href="#">
+                            <span class="logo-link--blue">WEB</span>
+                            <span class="logo-link--black blank">STUDIO</span>
+                        </a>
+                    </div>
+                    <p class="footer-text">
+                        Increase the flow of customers and sales for
+                        your business with digital marketing & growth solutions.
+                    </p>
                 </div>
-                <p class="footer-text">
-                    Increase the flow of customers and sales for
-                    your business with digital marketing & growth solutions.
-                </p>
             </div>
         </div>
     </footer>

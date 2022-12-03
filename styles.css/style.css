@@ -199,6 +199,12 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.header-content__list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-content__item {
@@ -222,12 +228,11 @@ body {
 .main {
 }
 .main-inner {
-    margin-top: 200px;
 }
-.specialty {
+.speciality {
     margin-bottom: 240px;
 }
-.specialty-title,
+.speciality-title,
 .team-title {
     font-size: 36px;
     line-height: 40px;
@@ -235,13 +240,13 @@ body {
     text-align: center;
     margin-bottom: 72px;
 }
-.specialty-list {
+.speciality-list {
     display: flex;
     justify-content: space-between;
 }
-.specialty-item {
+.speciality-item {
 }
-.specialty-img {
+.speciality-img {
     max-width: 360px;
     min-height: 300px;
 }

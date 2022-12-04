@@ -77,6 +77,8 @@ body {
 
 /*Header styles*/
 .header {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .header-inner {
@@ -85,7 +87,7 @@ body {
 .header-menu {
     display: flex;
     justify-content: space-between;
-    padding: 24px 156px 24px 156px;
+    padding: 24px 0 24px 0;
     border-bottom: 2px solid #ffffff;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -108,14 +110,11 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    color: #2e2f42;
 }
 
 .logo-link--blue {
     color: #4d5ae5;
-}
-
-.logo-link--black {
-    color: #2e2f42;
 }
 
 .menu-list {
@@ -157,20 +156,22 @@ body {
 .header-contacts__link {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     display: block;
 }
 
 .header-content {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .header-content__top {
     background-color: #2e2f42;
     color: #ffffff;
     font-weight: 600;
-    padding: 192px 474px 291px 474px;
+    padding: 200px 200px;
     text-align: center;
 }
 
@@ -178,7 +179,8 @@ body {
     font-size: 55px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin: 0 0 48px 0;
+    margin: 0 auto;
+    max-width: 492px;
 }
 
 .header-content__button {
@@ -187,6 +189,7 @@ body {
     color: #ffffff;
     background-color: #4d5ae5;
     padding: 16px 32px;
+    margin-top: 48px;
 }
 
 .header-content__subtitle {
@@ -198,8 +201,8 @@ body {
 .header-content__box {
     display: flex;
     justify-content: space-between;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .header-content__list {
@@ -230,12 +233,12 @@ body {
 .main-inner {
 }
 .speciality {
-    margin-bottom: 240px;
+    padding-bottom: 240px;
 }
 .speciality-title,
 .team-title {
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 72px;
@@ -251,7 +254,7 @@ body {
     min-height: 300px;
 }
 .team {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .team-list {
@@ -270,7 +273,8 @@ body {
 }
 
 .team-groupe {
-    padding: 32px 65px;
+    padding-top: 27.5px;
+    padding-bottom: 27.5px;
     text-align: center;
 }
 
@@ -291,16 +295,20 @@ body {
 
 /*Footer*/
 .footer {
-}
-.futer-inner {
     background-color: #2e2f42;
     padding: 100px 0 100px 156px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .footer-content {
     max-width: 264px;
     text-align: left;
 }
 .logo {
+}
+
+.logo-footer {
+    color: #e7e9fc;
 }
 .logo-link {
 }
@@ -324,11 +332,10 @@ body {
 
 /*Portfolio*/
 .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
-.portfolio-inner {
-    margin-top: 96px;
-    margin-bottom: 120px;
-}
+
 .portfolio-filter {
     display: flex;
     justify-content: center;
@@ -346,7 +353,6 @@ body {
     letter-spacing: 0.04em;
     color: #4d5ae5;
     padding: 12px 24px;
-    outline: 2px solid red;
     border-radius: 4px;
 }
 

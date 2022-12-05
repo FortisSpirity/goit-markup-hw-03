@@ -77,8 +77,9 @@ body {
 
 /*Header styles*/
 .header {
-    max-width: 1440px;
     margin: 0 auto;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-inner {
@@ -88,9 +89,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 24px 0 24px 0;
-    border-bottom: 2px solid #ffffff;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .menu {
@@ -163,7 +161,6 @@ body {
 }
 
 .header-content {
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -171,7 +168,7 @@ body {
     background-color: #2e2f42;
     color: #ffffff;
     font-weight: 600;
-    padding: 200px 200px;
+    padding: 200px 0;
     text-align: center;
 }
 
@@ -233,7 +230,7 @@ body {
 .main-inner {
 }
 .speciality {
-    padding-bottom: 240px;
+    padding-bottom: 120px;
 }
 .speciality-title,
 .team-title {
@@ -254,6 +251,7 @@ body {
     min-height: 300px;
 }
 .team {
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -296,10 +294,10 @@ body {
 /*Footer*/
 .footer {
     background-color: #2e2f42;
-    padding: 100px 0 100px 156px;
-    max-width: 1440px;
+    padding: 100px 0 100px 0;
     margin: 0 auto;
 }
+
 .footer-content {
     max-width: 264px;
     text-align: left;
@@ -345,7 +343,7 @@ body {
 .portfolio-filter__item {
 }
 .portfolio-filter__item + .portfolio-filter__item {
-    margin-left: 48px;
+    margin-left: 24px;
 }
 .portfolio-filter__button {
     font-size: 16px;
@@ -375,7 +373,6 @@ body {
 .portfolio-item {
     flex-basis: calc(25% - 24px);
     margin-left: 24px;
-    margin-bottom: 48px;
     border-bottom: 2px solid #ffffff;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
